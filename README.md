@@ -1,39 +1,47 @@
 # Network Policy Lab
 
-**Network Routing, DNS Policy & Configuration Research**
+[English](#english) · [Русский](#русский)
 
-An open-source technical project focused on network traffic classification, DNS resolution, routing policies, configuration analysis, and secure network communication.
+## English
 
-## Project Scope
+Network Policy Lab documents how applications interpret network policy rules. It focuses on three questions: how a domain name is resolved, which rule matches a connection, and which route the application selects.
 
-The project covers:
+### Research scope
 
-- Research and analysis of network routing policies.
-- Configuration syntax and compatibility testing.
-- DNS behavior and traffic classification.
-- Evaluation of networking rules and configuration formats.
-- Reproducible technical experiments.
+- **Traffic classification and routing.** Examine domain matching, rule order, and the default action when no rule matches.
+- **DNS and connectivity.** Trace how a DNS response affects subsequent connection attempts and distinguish name resolution failures from routing problems.
+- **Configuration compatibility.** Compare how applications and versions interpret the same rule. For reproducible tests, record the software version, relevant configuration, and expected and observed behavior.
 
-## Legal Notice / Правовое уведомление
+### Legal notice
 
-Материалы настоящего репозитория предоставляются в информационных, образовательных и научно-технических целях для исследования сетевых технологий, механизмов маршрутизации, разрешения DNS-запросов и защищённого обмена данными.
+The project publishes declarative rules and technical documentation for research, education, and network administration. It does not offer network access services or subscriptions. References to third-party software and rule sets identify components relevant to compatibility testing and imply no endorsement or affiliation.
 
-Репозиторий не является предложением услуг виртуальных частных сетей, прокси-сервисов или иных услуг по предоставлению доступа к информационным ресурсам.
+Run tests only on systems you administer or have permission to test. Observe applicable law and respect third-party rights. The legal assessment of a publication or a particular use depends on the actual content and circumstances, irrespective of its stated purpose.
 
-Проект не содержит рекламы таких услуг и не предоставляет учётные данные, действующие серверные подключения или коммерческие подписки.
+The materials are provided “as is.” To the extent permitted by applicable law, the authors give no warranty of accuracy, compatibility, or fitness for a particular purpose.
 
-Опубликованные материалы следует использовать исключительно в рамках применимого законодательства, включая законодательство об информации, информационных технологиях, связи и защите информации.
+### Licensing
 
-Авторы не предоставляют юридических гарантий относительно допустимости использования отдельных технических решений в конкретной юрисдикции.
+When reusing materials, consult the license applicable to the files in question. Third-party rule sets and documentation remain subject to their own terms.
 
-## Disclaimer
+## Русский
 
-The repository is intended for technical research, education, network administration, and configuration interoperability.
+Network Policy Lab описывает, как приложения обрабатывают правила сетевой политики. В центре внимания три вопроса: как разрешается доменное имя, какое правило срабатывает для соединения и какой маршрут выбирает приложение.
 
-It does not offer, advertise, or operate any commercial virtual network service.
+### Направления исследований
 
-Users are responsible for ensuring compliance with applicable laws and regulations in their jurisdictions.
+- **Классификация трафика и маршрутизация.** Как приложение сопоставляет доменные имена с правилами, в каком порядке проверяет правила и какое действие выполняет, если ни одно из них не подошло.
+- **DNS и диагностика соединений.** Как ответ DNS влияет на последующие попытки соединения и как отличить ошибку разрешения имени от проблемы с маршрутизацией.
+- **Совместимость конфигураций.** Как разные приложения и их версии интерпретируют одно и то же правило. Чтобы проверку можно было повторить, фиксируют версию программы, существенные параметры конфигурации, ожидаемый и фактический результат.
 
-## License
+### Правовое уведомление
 
-Distributed under the terms of the applicable open-source license.
+Проект публикует декларативные правила и техническую документацию для исследований, обучения и администрирования сетей. Проект не предлагает услуги сетевого доступа или подписки на такие услуги. Сторонние программы и наборы правил упоминаются для проверки совместимости. Такое упоминание само по себе не означает одобрения или наличия партнёрских отношений.
+
+Проводите испытания только на системах, которые вы администрируете или на тестирование которых у вас есть разрешение. Соблюдайте применимое законодательство и права третьих лиц. При правовой оценке публикации или конкретного способа её использования учитываются фактическое содержание и обстоятельства независимо от заявленной цели.
+
+Материалы предоставляются «как есть». В пределах, допускаемых применимым законодательством, авторы не гарантируют их точность, совместимость или пригодность для конкретной цели.
+
+### Лицензирование
+
+При повторном использовании материалов руководствуйтесь условиями лицензии, применимой к конкретным файлам. Для сторонних наборов правил и документации действуют их собственные условия.
